@@ -13,9 +13,9 @@ function AboutPage({ data }) {
   return (
     <Layout>
       <Seo title="About" />
-      <Bio author={author} language={language} />
-      <TimeStampSection timestamps={timestamps} />
-      <ProjectSection projects={projects} />
+      {/* <Bio author={author} language={language} /> */}
+      {/* <TimeStampSection timestamps={timestamps} />
+      <ProjectSection projects={projects} /> */}
     </Layout>
   );
 }
