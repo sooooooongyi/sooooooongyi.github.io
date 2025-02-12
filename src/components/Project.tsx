@@ -1,6 +1,6 @@
 const Project = () => {
   return (
-    <div className="pt-10">
+    <div className="py-10">
       <div className="font-pretendardBold text-4xl font-bold text-[#628B35]">
         Project Experience
       </div>

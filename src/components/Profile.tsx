@@ -8,12 +8,13 @@ const Profile = () => {
       </div>
       <div className="flex items-center justify-center gap-10 pt-12 max-sm:flex-col">
         <Image
+          className="animate-slide-fade-in translate-x-[-50px] opacity-0"
           src="/images/image-profile.png"
           alt="image-profile"
           width={240}
           height={240}
         />
-        <div>
+        <div className="animate-slide-fade-in translate-x-[-50px] opacity-0">
           <div className="whitespace-nowrap text-2xl font-bold">
             긍정적인 생각으로
             <br /> 함께 성장을 위해 노력하고, <br />

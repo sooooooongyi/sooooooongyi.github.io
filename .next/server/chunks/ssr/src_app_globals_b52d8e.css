@@ -354,6 +354,27 @@ img, video {
   max-width: 70%;
 }
 
+.translate-x-\[-50px\] {
+  --tw-translate-x: -50px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-fade-in {
+  animation: 1s ease-out forwards slideFadeIn;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -532,10 +553,34 @@ img, video {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 .shadow-\[0px_10px_10px_-10px_rgba\(33\,35\,38\,0\.1\)\] {
   --tw-shadow: 0px 10px 10px -10px #2123261a;
   --tw-shadow-colored: 0px 10px 10px -10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.delay-500 {
+  transition-delay: .5s;
+}
+
+.delay-100 {
+  transition-delay: .1s;
+}
+
+.delay-1000 {
+  transition-delay: 1s;
+}
+
+.delay-\[4000\] {
+  transition-delay: 4000;
+}
+
+.delay-\[\] {
+  transition-delay: ;
 }
 
 :root {
@@ -589,10 +634,6 @@ body {
 
   .max-sm\:items-start {
     align-items: flex-start;
-  }
-
-  .max-sm\:justify-normal {
-    justify-content: normal;
   }
 
   .max-sm\:gap-10 {
