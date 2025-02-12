@@ -17,7 +17,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed left-0 top-0 flex h-12 w-full items-center justify-between border-b border-gray-950/5 px-4 text-base font-bold dark:border-white/10">
+    <div className="fixed left-0 top-0 z-50 flex h-12 w-full items-center justify-between border-b border-gray-950/5 bg-white px-4 text-base font-bold dark:border-white/10">
       <div className="portfolio">👩🏻‍💻 portfolio</div>
       <div className="flex cursor-pointer gap-4 max-sm:hidden">
         <div>about</div>

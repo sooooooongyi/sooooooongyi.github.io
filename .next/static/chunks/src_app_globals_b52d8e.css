@@ -321,6 +321,10 @@ img, video {
   top: 3rem;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -380,6 +384,10 @@ img, video {
 
 .gap-20 {
   gap: 5rem;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .border-b {

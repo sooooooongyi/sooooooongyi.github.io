@@ -14,7 +14,7 @@ const Profile = () => {
           height={240}
         />
         <div>
-          <div className="text-2xl font-bold">
+          <div className="whitespace-nowrap text-2xl font-bold">
             긍정적인 생각으로
             <br /> 함께 성장을 위해 노력하고, <br />
             즐겁게 배우길 좋아하는 <br />
