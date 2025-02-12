@@ -305,6 +305,14 @@ img, video {
   position: fixed;
 }
 
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
 .top-0 {
   top: 0;
 }
@@ -313,8 +321,9 @@ img, video {
   top: 3rem;
 }
 
-.right-0 {
-  right: 0;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex {
@@ -325,8 +334,16 @@ img, video {
   height: 3rem;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-full {
   width: 100%;
+}
+
+.max-w-\[70\%\] {
+  max-width: 70%;
 }
 
 .cursor-pointer {
@@ -341,20 +358,33 @@ img, video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-4 {
   gap: 1rem;
 }
 
-.rounded-lg {
-  border-radius: .5rem;
-}
-
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-l-\[6px\] {
+  border-left-width: 6px;
+}
+
+.border-\[\#628B35\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(98 139 53 / var(--tw-border-opacity, 1));
 }
 
 .border-gray-950\/5 {
@@ -375,14 +405,39 @@ img, video {
   padding-right: 1rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-1 {
   padding-top: .25rem;
   padding-bottom: .25rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pr-2 {
+  padding-right: .5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base {
@@ -392,6 +447,15 @@ img, video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-\[\#628B35\] {
+  --tw-text-opacity: 1;
+  color: rgb(98 139 53 / var(--tw-text-opacity, 1));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .antialiased {
@@ -424,6 +488,13 @@ img, video {
   font-style: normal;
 }
 
+@font-face {
+  font-family: Pretendard-Bold;
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   font-family: Pretendard;
 }
@@ -438,24 +509,14 @@ body {
   .max-sm\:hidden {
     display: none;
   }
+
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
 }
 
 @media (width >= 640px) {
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:hidden {
-    display: none;
-  }
-}
-
-@media (width >= 768px) {
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:hidden {
     display: none;
   }
 }
