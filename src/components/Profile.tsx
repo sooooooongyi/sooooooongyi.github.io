@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Profile = () => {
   return (
-    <div className="pt-10">
+    <div className="pt-12">
       <div className="border-l-[6px] border-[#7a9b57] pl-4 text-4xl font-bold">
         박송이
       </div>

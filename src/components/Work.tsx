@@ -1,6 +1,6 @@
 const Work = () => {
   return (
-    <div className="py-10">
+    <div id="work" className="pt-12">
       <div className="font-pretendardBold text-4xl font-bold text-[#628B35]">
         Work Experience
       </div>

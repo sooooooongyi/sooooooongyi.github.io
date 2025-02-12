@@ -1,6 +1,6 @@
 const Career = () => {
   return (
-    <div className="border-b border-gray-950/5 py-10 dark:border-white/10">
+    <div className="border-b border-gray-950/5 py-12 dark:border-white/10">
       <div className="font-pretendardBold text-4xl font-bold text-[#628B35]">
         Career
       </div>
