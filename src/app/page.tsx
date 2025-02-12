@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Career from "@/components/Career";
 import Navbar from "@/components/Navbar";
 import Profile from "@/components/Profile";
+import Project from "@/components/Project";
 import Work from "@/components/Work";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Career />
       <Work />
+      <Project />
     </div>
   );
 }
