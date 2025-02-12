@@ -3,7 +3,7 @@ import Image from "next/image";
 const Profile = () => {
   return (
     <div className="pt-10">
-      <div className="border-l-[6px] border-[#628B35] pl-4 text-4xl font-bold">
+      <div className="border-l-[6px] border-[#7a9b57] pl-4 text-4xl font-bold">
         박송이
       </div>
       <div className="flex items-center justify-center gap-10 pt-12 max-sm:flex-col">

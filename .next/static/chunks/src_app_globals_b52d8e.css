@@ -330,6 +330,10 @@ img, video {
   margin-right: auto;
 }
 
+.mr-2 {
+  margin-right: .5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -350,16 +354,20 @@ img, video {
   max-width: 70%;
 }
 
-.max-w-\[60\%\] {
-  max-width: 60%;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
 
 .resize {
   resize: both;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .items-center {
@@ -378,12 +386,12 @@ img, video {
   gap: 2.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .whitespace-nowrap {
@@ -398,9 +406,9 @@ img, video {
   border-left-width: 6px;
 }
 
-.border-\[\#628B35\] {
+.border-\[\#7a9b57\] {
   --tw-border-opacity: 1;
-  border-color: rgb(98 139 53 / var(--tw-border-opacity, 1));
+  border-color: rgb(122 155 87 / var(--tw-border-opacity, 1));
 }
 
 .border-gray-950\/5 {
@@ -426,9 +434,18 @@ img, video {
   padding-bottom: .25rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-3 {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pl-4 {
@@ -447,6 +464,10 @@ img, video {
   padding-top: 3rem;
 }
 
+.pt-2 {
+  padding-top: .5rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -455,12 +476,8 @@ img, video {
   padding-top: 1rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .font-pretendardBold {
@@ -494,6 +511,16 @@ img, video {
 .text-\[\#628B35\] {
   --tw-text-opacity: 1;
   color: rgb(98 139 53 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#7a9b57\] {
+  --tw-text-opacity: 1;
+  color: rgb(122 155 87 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -552,8 +579,20 @@ body {
     display: none;
   }
 
+  .max-sm\:max-w-\[90\%\] {
+    max-width: 90%;
+  }
+
   .max-sm\:flex-col {
     flex-direction: column;
+  }
+
+  .max-sm\:items-start {
+    align-items: flex-start;
+  }
+
+  .max-sm\:justify-normal {
+    justify-content: normal;
   }
 
   .max-sm\:gap-10 {
@@ -563,14 +602,6 @@ body {
   .max-sm\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .max-sm\:pt-10 {
-    padding-top: 2.5rem;
-  }
-
-  .max-sm\:pt-5 {
-    padding-top: 1.25rem;
   }
 }
 

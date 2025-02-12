@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="flex justify-between gap-20 whitespace-nowrap border-b border-gray-950/5 px-4 pb-10 pt-20 max-sm:flex-col max-sm:gap-10 max-sm:py-10 dark:border-white/10">
+    <div className="flex justify-between gap-20 border-b border-gray-950/5 pb-10 pt-20 max-sm:flex-col max-sm:gap-10 max-sm:py-10 dark:border-white/10">
       <div>
         <div className="font-pretendardBold text-4xl font-bold text-[#628B35]">
           Contact
