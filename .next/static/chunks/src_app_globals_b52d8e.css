@@ -346,6 +346,10 @@ img, video {
   max-width: 70%;
 }
 
+.max-w-\[60\%\] {
+  max-width: 60%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -372,6 +376,10 @@ img, video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .border-b {
@@ -410,6 +418,11 @@ img, video {
   padding-bottom: .25rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
@@ -426,8 +439,24 @@ img, video {
   padding-top: 3rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.font-pretendardBold {
+  font-family: Pretendard-Bold, sans-serif;
 }
 
 .text-2xl {
@@ -443,6 +472,11 @@ img, video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: .875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -512,6 +546,23 @@ body {
 
   .max-sm\:flex-col {
     flex-direction: column;
+  }
+
+  .max-sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .max-sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .max-sm\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .max-sm\:pt-5 {
+    padding-top: 1.25rem;
   }
 }
 

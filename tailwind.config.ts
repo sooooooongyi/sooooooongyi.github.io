@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        pretendard: ["Pretendard-Regular", "sans-serif"],
+        pretendardBold: ["Pretendard-Bold", "sans-serif"],
+      },
     },
   },
   plugins: [],
