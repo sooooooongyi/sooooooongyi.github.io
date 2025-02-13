@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Work = () => {
   return (
     <div id="work" className="pt-12">
@@ -5,9 +7,12 @@ const Work = () => {
         Work Experience
       </div>
       <div className="pt-4">
-        <div className="text-2xl font-bold text-[#7a9b57] underline">
+        <Link
+          className="text-2xl font-bold text-[#7a9b57] underline"
+          href="/work/sauceclip-admin"
+        >
           [모비두] 소스클립 관리자 페이지
-        </div>
+        </Link>
         <div className="border-b border-gray-950/5 py-3 dark:border-white/10">
           <div className="font-bold">프로젝트 기간</div>
           <div>2023.11~2024-07</div>

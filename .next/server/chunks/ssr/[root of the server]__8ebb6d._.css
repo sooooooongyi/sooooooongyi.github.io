@@ -381,6 +381,10 @@ img, video {
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
 .left-0 {
   left: 0;
 }
@@ -414,8 +418,16 @@ img, video {
   margin-top: 3rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.aspect-\[16\/9\] {
+  aspect-ratio: 16 / 9;
 }
 
 .h-12 {
@@ -424,6 +436,14 @@ img, video {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-64 {
+  height: 16rem;
 }
 
 .min-h-screen {
@@ -525,6 +545,10 @@ img, video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.object-cover {
+  object-fit: cover;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -535,6 +559,10 @@ img, video {
 
 .p-12 {
   padding: 3rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-4 {
@@ -560,6 +588,11 @@ img, video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-10 {
@@ -602,6 +635,14 @@ img, video {
   padding-top: 3.5rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-1 {
+  padding-top: .25rem;
+}
+
 .font-pretendardBold {
   font-family: Pretendard-Bold, sans-serif;
 }
@@ -624,6 +665,11 @@ img, video {
 .text-sm {
   font-size: .875rem;
   line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -744,6 +790,11 @@ body {
   .max-sm\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .max-sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const Navbar = () => {
   const router = useRouter();
@@ -24,7 +25,9 @@ const Navbar = () => {
 
   return (
     <div className="fixed left-0 top-0 z-50 flex h-12 w-full items-center justify-between border-b border-gray-950/5 bg-white px-4 text-base font-bold dark:border-white/10">
-      <div className="portfolio">👩🏻‍💻 portfolio</div>
+      <Link className="portfolio" href="/">
+        👩🏻‍💻 portfolio
+      </Link>
       <div className="flex cursor-pointer gap-4 max-sm:hidden">
         <div onClick={handleClickAbout}>about</div>
         <div onClick={handleClickWork}>work</div>

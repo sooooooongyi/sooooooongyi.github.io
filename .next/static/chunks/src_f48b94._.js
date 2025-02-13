@@ -1014,6 +1014,8 @@ __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+;
 ;
 const Work = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1025,18 +1027,19 @@ const Work = ()=>{
                 children: "Work Experience"
             }, void 0, false, {
                 fileName: "[project]/src/components/Work.tsx",
-                lineNumber: 4,
+                lineNumber: 6,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "pt-4",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         className: "text-2xl font-bold text-[#7a9b57] underline",
+                        href: "/work/sauceclip-admin",
                         children: "[모비두] 소스클립 관리자 페이지"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 8,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1047,20 +1050,20 @@ const Work = ()=>{
                                 children: "프로젝트 기간"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 12,
+                                lineNumber: 17,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "2023.11~2024-07"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 13,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 11,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1071,20 +1074,20 @@ const Work = ()=>{
                                 children: "기술 스택"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 16,
+                                lineNumber: 21,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "TypeScript, React, styled-components, SCSS, React-Query, Recoil, Axios, ECharts, Antd"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 17,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 15,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1095,7 +1098,7 @@ const Work = ()=>{
                                 children: "구현 기능"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 23,
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1105,32 +1108,32 @@ const Work = ()=>{
                                         children: "소스클립 관리자 서비스 화면 개발"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 30,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "빠른 화면 구축을 위한 디자인 시스템 도입"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 31,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 24,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 22,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work.tsx",
-                lineNumber: 7,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1141,7 +1144,7 @@ const Work = ()=>{
                         children: "[모비두] 소스클립 플레이어"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 31,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1152,20 +1155,20 @@ const Work = ()=>{
                                 children: "프로젝트 기간"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 35,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "2023.07~2024-07"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 36,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 34,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1176,20 +1179,20 @@ const Work = ()=>{
                                 children: "기술 스택"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 39,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "TypeScript, React, styled-components, Redux, Axios, Swiper"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 40,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 38,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1200,7 +1203,7 @@ const Work = ()=>{
                                 children: "구현 기능"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 43,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1210,32 +1213,32 @@ const Work = ()=>{
                                         children: "PC, 모바일, 하이브리드앱 환경에서 제공하는 쇼퍼블 숏폼 반응형 플레이어 서비스 화면 개발"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 50,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "코드 사용성과 가독성 개선을 위한 코드 컨벤션 도입 및 리팩토링"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 54,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 44,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 42,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work.tsx",
-                lineNumber: 30,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1246,7 +1249,7 @@ const Work = ()=>{
                         children: "[모비두] 소스라이브 라이브콘솔&프롬프터"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 56,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1257,20 +1260,20 @@ const Work = ()=>{
                                 children: "프로젝트 기간"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 60,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "2023.01~2023.06"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 61,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 59,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1281,20 +1284,20 @@ const Work = ()=>{
                                 children: "기술 스택"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 64,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "TypeScript, React, Sass, Redux, Redux-Saga, Axios, React-Quill"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 65,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 63,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1305,7 +1308,7 @@ const Work = ()=>{
                                 children: "구현 기능"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 70,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1314,24 +1317,24 @@ const Work = ()=>{
                                     children: "라이브 커머스 매니저 및 관리자를 위한 라이브콘솔&프롬프터 서비스 화면 개발 및 운영"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Work.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 71,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 69,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work.tsx",
-                lineNumber: 55,
+                lineNumber: 60,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1342,7 +1345,7 @@ const Work = ()=>{
                         children: "[모비두] 소스라이브 플레이어"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 80,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1353,20 +1356,20 @@ const Work = ()=>{
                                 children: "프로젝트 기간"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 84,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "2022.03~2023.06"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 85,
+                                lineNumber: 90,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 83,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1377,20 +1380,20 @@ const Work = ()=>{
                                 children: "기술 스택"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 88,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: "TypeScript, React, Sass, Redux, Redux-Saga, Axios"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 89,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 87,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1401,7 +1404,7 @@ const Work = ()=>{
                                 children: "구현 기능"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 92,
+                                lineNumber: 97,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1411,52 +1414,52 @@ const Work = ()=>{
                                         children: "PC, 모바일, 하이브리드앱 환경에서 제공하는 반응형 플레이어 서비스 운영 및 이슈 대응"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 99,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "디자인팀과 협업하여 디자인 시스템 도입을 통한 플레이어 전반적인 UI/UX 개선"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 103,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "팀내 개발 문화 구축을 위하여 코드 컨벤션 및 코드 리뷰 도입"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 107,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "공통 컴포넌트 개발로 코드 재사용성 및 개발 효율성 개선"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Work.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 108,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Work.tsx",
-                                lineNumber: 93,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work.tsx",
-                        lineNumber: 91,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work.tsx",
-                lineNumber: 79,
+                lineNumber: 84,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Work.tsx",
-        lineNumber: 3,
+        lineNumber: 5,
         columnNumber: 5
     }, this);
 };
