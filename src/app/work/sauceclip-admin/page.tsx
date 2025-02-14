@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const DetailPage = () => {
   return (
     <div className="mx-auto min-h-screen w-full max-w-[70%] pt-14 max-sm:max-w-[90%]">
@@ -7,14 +5,14 @@ const DetailPage = () => {
         <div className="border-l-[6px] border-[#7a9b57] pl-4 text-4xl font-bold max-sm:text-3xl">
           소스클립 관리자 페이지
         </div>
-        <div className="relative mb-6 mt-12 aspect-[16/9] w-full">
+        {/* <div className="relative mb-6 mt-12 aspect-[16/9] w-full">
           <Image
             src="/images/image-sauceclip-admin.png"
             alt="image-sauceclip-admin"
             fill
             className="object-cover"
           />
-        </div>
+        </div> */}
         <div className="border-b border-gray-950/5 py-6 dark:border-white/10">
           <div className="text-lg font-bold">📝 프로젝트 설명</div>
           <div className="pt-1">

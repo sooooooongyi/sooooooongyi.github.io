@@ -3,5 +3,6 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/work/sauceclip-admin/page": "app/work/sauceclip-admin/page.js",
   "/work/sauceclip-player/page": "app/work/sauceclip-player/page.js",
-  "/work/saucelive-liveconsole/page": "app/work/saucelive-liveconsole/page.js"
+  "/work/saucelive-liveconsole/page": "app/work/saucelive-liveconsole/page.js",
+  "/work/saucelive-player/page": "app/work/saucelive-player/page.js"
 }
