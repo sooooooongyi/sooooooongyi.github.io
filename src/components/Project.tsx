@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Project = () => {
   return (
     <div id="project" className="pt-12">
@@ -5,9 +7,12 @@ const Project = () => {
         Project Experience
       </div>
       <div className="pt-4">
-        <div className="text-2xl font-bold text-[#7a9b57] underline">
+        <Link
+          className="text-2xl font-bold text-[#7a9b57] underline"
+          href="/project/hotdealwave"
+        >
           Hot Deal Wave
-        </div>
+        </Link>
         <div className="border-b border-gray-950/5 py-3 dark:border-white/10">
           <div className="font-bold">프로젝트 기간</div>
           <div>2024.12~2025-01</div>

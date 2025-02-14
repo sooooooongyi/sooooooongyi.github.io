@@ -443,6 +443,10 @@ img, video {
   gap: 1rem;
 }
 
+.gap-2 {
+  gap: .5rem;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
