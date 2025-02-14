@@ -24,7 +24,7 @@ const DetailPage = () => {
         </div>
         <div className="border-b border-gray-950/5 py-6 dark:border-white/10">
           <div className="text-lg font-bold">🕐 프로젝트 기간</div>
-          <div className="pt-1">2023.11~2024-07</div>
+          <div className="pt-1">2023.11~2024.07</div>
         </div>
         <div className="border-b border-gray-950/5 py-6 dark:border-white/10">
           <div className="text-lg font-bold">⚒️ 기술 스택</div>
