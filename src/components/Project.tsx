@@ -85,9 +85,12 @@ const Project = () => {
         </div>
       </div>
       <div className="pt-8">
-        <div className="text-2xl font-bold text-[#7a9b57] underline">
+        <Link
+          className="text-2xl font-bold text-[#7a9b57] underline"
+          href="/project/petsalon"
+        >
           Pet Salon
-        </div>
+        </Link>
         <div className="border-b border-gray-950/5 py-3 dark:border-white/10">
           <div className="font-bold">프로젝트 기간</div>
           <div>2021.10~2021.11</div>

@@ -8,5 +8,6 @@
   "/project/hotdealwave/page": "app/project/hotdealwave/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/project/fitnessu/page": "app/project/fitnessu/page.js",
-  "/project/monthsub/page": "app/project/monthsub/page.js"
+  "/project/monthsub/page": "app/project/monthsub/page.js",
+  "/project/petsalon/page": "app/project/petsalon/page.js"
 }
