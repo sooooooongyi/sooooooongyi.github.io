@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/work/sauceclip-admin/page": "app/work/sauceclip-admin/page.js"
+  "/work/sauceclip-admin/page": "app/work/sauceclip-admin/page.js",
+  "/work/sauceclip-player/page": "app/work/sauceclip-player/page.js"
 }
