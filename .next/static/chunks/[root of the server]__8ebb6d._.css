@@ -422,6 +422,10 @@ img, video {
   margin-bottom: 1.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -645,6 +649,14 @@ img, video {
 
 .pt-1 {
   padding-top: .25rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .font-pretendardBold {
