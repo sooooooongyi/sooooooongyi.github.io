@@ -9,10 +9,12 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    if (window.location.hash) {
-      document
-        .getElementById(window.location.hash.substring(1))
-        ?.scrollIntoView({ behavior: "smooth" });
+    if (typeof window !== "undefined") {
+      if (window.location.hash) {
+        document
+          .getElementById(window.location.hash.substring(1))
+          ?.scrollIntoView({ behavior: "smooth" });
+      }
     }
   }, []);
 
