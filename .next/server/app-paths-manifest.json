@@ -5,5 +5,7 @@
   "/work/sauceclip-player/page": "app/work/sauceclip-player/page.js",
   "/work/saucelive-liveconsole/page": "app/work/saucelive-liveconsole/page.js",
   "/work/saucelive-player/page": "app/work/saucelive-player/page.js",
-  "/project/hotdealwave/page": "app/project/hotdealwave/page.js"
+  "/project/hotdealwave/page": "app/project/hotdealwave/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/project/fitnessu/page": "app/project/fitnessu/page.js"
 }
