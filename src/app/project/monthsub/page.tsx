@@ -74,6 +74,22 @@ const DetailPage = () => {
             <li>Axios 추상화</li>
           </ul>
         </div>
+        <div className="border-b border-gray-950/5 py-6 dark:border-white/10">
+          <div className="text-lg font-bold">🔥 트러블 슈팅</div>
+          <div className="pt-1">
+            파일과 JSON 데이터를 함께 POST하는 도중 Bad Request 이슈
+          </div>
+          <ul className="list-inside list-disc">
+            <li>Blob 객체를 이용해 데이터를 감싸 보냄으로써 해결</li>
+          </ul>
+          <div className="pt-1">
+            ContextAPI로 로그인 상태를 관리하던 도중, 비효율적으로 로그인 상태
+            변경이 발생하는 이슈
+          </div>
+          <ul className="list-inside list-disc">
+            <li>useMemo를 통한 메모이제이션으로 해결</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

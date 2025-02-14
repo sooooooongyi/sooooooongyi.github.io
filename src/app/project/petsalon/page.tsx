@@ -59,15 +59,19 @@ const DetailPage = () => {
         </div>
         <div className="border-b border-gray-950/5 py-6 dark:border-white/10">
           <div className="text-lg font-bold">🔥 트러블 슈팅</div>
-          <div>하위 컴포넌트에서 데이터 및 화면 갱신을 할수 없는 이슈</div>
-          <ul className="list-inside list-disc pt-1">
+          <div className="pt-1">
+            하위 컴포넌트에서 데이터 및 화면 갱신을 할수 없는 이슈
+          </div>
+          <ul className="list-inside list-disc">
             <li>
               이벤트 함수를 함께 전달하여 하위 컴포넌트에서의 데이터 변화를
               화면에 업데이트
             </li>
           </ul>
-          <div>컴포넌트 Mounted 시 Data Fetching과 렌더링 사이의 이슈</div>
-          <ul className="list-inside list-disc pt-1">
+          <div className="pt-1">
+            컴포넌트 Mounted 시 Data Fetching과 렌더링 사이의 이슈
+          </div>
+          <ul className="list-inside list-disc">
             <li>
               React Hooks를 이용해 데이터를 비동기적으로 불러옴으로써 해결
             </li>
